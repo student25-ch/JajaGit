@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -Wall -O2
+CFLAGS = -Wall -O2 -I.
 LDFLAGS = -lz -lcrypto -lssl
 
 SRC = jajagit.c \
